@@ -1,45 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <title>ToDo</title>
+	<meta charset="UTF-8">
+	
+	<title>ToDo lista</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Love_or_Heart_transparent.png/1124px-Love_or_Heart_transparent.png">
-    <link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="index.css" />
+	
 </head>
 <body>
-    <script src="index.js.js"></script>
-    <div id="wrapper">
-        <header>
-    <div id="page-banner">
-        <h1 class="title">ToDo list</h1>
-        <p>Tehtävälista</p>
-        <form id="Tehtävät">
-            <input type="text" placeholder="Etsi"/>
-        </form>
-        </div>
-</header>
-<div id="lista">
-    <h2 class="Otsikko"></h2>
-    <ul>
-        <li>
-            <span class="Tehtävä">Käy kaupassa</span>
-            <span class="Poista">Poista</span>
-        </li>
-        <li>
-            <span class="Tehtävä">Siivoa</span>
-            <span class="Poista">Poista</span>
-        </li>
-    </ul>
-</div>
-<form id="Lisää">
-    <input type="Teksti" placeholder="Lisää tehtävä"/>
-    <button>Lisää</button>
-</form>
-</div>
+	<div id="wrapper">
+	<header>
+		<h1>ToDo lista</h1>
+	<div class="container">
+		<div id="newtask">
+			<input type="text" placeholder="Kirjoita...">
+			<button id="push">Lisää</button>
+		</div>
+		<div id="tasks"></div>
+	</div>
+	<div>
+	
+
+	<script src="index.js"></script>
 </body>
 </html>
-
-
-
-</body>
